@@ -1,0 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+function make_shirt(size = 'large', text = 'I Love Typescript.') {
+    console.log(`Creating a ${size} shirt with the message: ${text}`);
+}
+make_shirt();
+make_shirt('Medium');
+make_shirt('Small', 'I Love Python');
